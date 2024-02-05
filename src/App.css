@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(133, 158, 95);
+  background-color: rgb(8, 95, 99);
+}
+.main-body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(194, 246, 116);
+  background: linear-gradient(to right, #FAD3C4, #2BD8BC);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px rgb(2, 50, 50);
+}
+.app-main-page{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.my-intro{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.my-name{
+  color: red;
+  font-size: 28px;
+  font-weight: 500;
+  border-right: 2px solid black;  /* Removed 'border-width' shorthand */
+  animation: slide 4s linear infinite;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+@keyframes slide{
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+ 100% {
+  width: 0%;
+ }
+}
